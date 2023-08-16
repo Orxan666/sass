@@ -1,0 +1,23 @@
+$color1: orange;
+$w-100: 80%;
+
+@mixin set-background($image:none) {
+  background: {
+    image:url( $image);
+    repeat:no-repeat;
+    position: center;
+  }
+}
+
+.box1 {
+  @include set-background(
+    "https://kontakt.az/wp-content/uploads/gallery-tum/TM-MT-XMT-1102-AC-0077_759ed4b7226b253887878cc2134c40bc_w_png.webp"
+  );
+  width: 80%;
+  margin: auto;
+  height: 60vh;
+}
+.box2 {
+  @extend .box1;
+
+}

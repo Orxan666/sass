@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: red;
+}
+header .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+header .boxes ul {
+  display: flex;
+  list-style: none;
+}
+header .boxes ul li a {
+  padding: 15px 20px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.box1, .box2 {
+  background-image: url("https://kontakt.az/wp-content/uploads/gallery-tum/TM-MT-XMT-1102-AC-0077_759ed4b7226b253887878cc2134c40bc_w_png.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 80%;
+  margin: auto;
+  height: 60vh;
+}
+
+.txt-contact {
+  color: blue;
+}/*# sourceMappingURL=style.css.map */
